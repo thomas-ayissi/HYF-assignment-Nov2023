@@ -14,51 +14,45 @@ body {
     color: #fff;
 }
 
-.container{
+.container {
     padding-top: 1%;
     padding-left: 5%;
-
 }
 
+.top0fScreen {
+    padding-top: 3%;
+}
 
-    .top0fScreen{
-        padding-top: 3%;
+.calculator-screen input.display {
+    padding: 2% 4%;
+    font-size: 25px;
+    color: #fff;
+    background-color: #778899;
+}
 
-    }
+.buttons {
+    padding: 2% 2%;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #778899;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
 
-    .calculator-screen input.display{
-        padding: 2% 4%;
-        font-size: 25px;
-        color: #fff;
-        background-color: #778899;
-    }
+.buttons:hover {
+    background-color: #3e8e41;
+}
 
+.buttons:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
 
-    .buttons {
-        padding: 2% 2%;
-        font-size: 24px;
-        text-align: center;
-        cursor: pointer;
-        outline: none;
-        color: #fff;
-        background-color: #778899;
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 9px #999;
-    }
-
-    .buttons:hover {background-color: #3e8e41}
-
-    .buttons:active {
-        background-color: #3e8e41;
-        box-shadow: 0 3px #666;
-        transform: translateY(4px);
-    }
-
-    .buttons {
-        margin: 1% 1% 1% 1%;
-    }
-
-
-
-
+.buttons {
+    margin: 1% 1% 1% 1%;
+}

@@ -7,47 +7,47 @@
         <title>Calculator</title>
     </head>
     <body>
-      <div class="container">
-        <div class="top0fScreen"></div>
-        <div class="calculator-screen">
-            <input type="text" class="display" id="result" />
-        </div>
+        <div class="container">
+            <div class="top0fScreen"></div>
+            <div class="calculator-screen">
+                <input type="text" class="display" id="result" />
+            </div>
 
-        <div class="calculator-digit-line-one">
-            <button class="buttons" onclick="clearDisplay()">AC</button>
-            <button class="buttons" onclick="deleteLast()">DEL</button>
-            <button class="buttons" onclick="append('%')">%</button>
-            <button class="buttons" onclick="append('/')">/</button>
-        </div>
+            <div class="calculator-digit-line-one">
+                <button class="buttons" onclick="clearDisplay()">AC</button>
+                <button class="buttons" onclick="deleteLast()">DEL</button>
+                <button class="buttons" onclick="append('%')">%</button>
+                <button class="buttons" onclick="append('/')">/</button>
+            </div>
 
-        <div class="calculator-digit-line-two">
-            <button class="buttons" onclick="append('7')">7</button>
-            <button class="buttons" onclick="append('8')">8</button>
-            <button class="buttons" onclick="append('9')">9</button>
-            <button class="buttons" onclick="append('*')">*</button>
-        </div>
+            <div class="calculator-digit-line-two">
+                <button class="buttons" onclick="append('7')">7</button>
+                <button class="buttons" onclick="append('8')">8</button>
+                <button class="buttons" onclick="append('9')">9</button>
+                <button class="buttons" onclick="append('*')">*</button>
+            </div>
 
-        <div class="calculator-digit-line-three">
-            <button class="buttons" onclick="append('4')">4</button>
-            <button class="buttons" onclick="append('5')">5</button>
-            <button class="buttons" onclick="append('6')">6</button>
-            <button class="buttons" onclick="append('-')">-</button>
-        </div>
+            <div class="calculator-digit-line-three">
+                <button class="buttons" onclick="append('4')">4</button>
+                <button class="buttons" onclick="append('5')">5</button>
+                <button class="buttons" onclick="append('6')">6</button>
+                <button class="buttons" onclick="append('-')">-</button>
+            </div>
 
-        <div class="calculator-digit-line-four">
-            <button class="buttons" onclick="append('1')">1</button>
-            <button class="buttons" onclick="append('2')">2</button>
-            <button class="buttons" onclick="append('3')">3</button>
-            <button class="buttons" onclick="append('+')">+</button>
-        </div>
+            <div class="calculator-digit-line-four">
+                <button class="buttons" onclick="append('1')">1</button>
+                <button class="buttons" onclick="append('2')">2</button>
+                <button class="buttons" onclick="append('3')">3</button>
+                <button class="buttons" onclick="append('+')">+</button>
+            </div>
 
-        <div class="calculator-digit-line-five">
-            <button class="buttons" onclick="append('0')">0</button>
-            <button class="buttons" onclick="append('00')">00</button>
-            <button class="buttons" onclick="append('.')">.</button>
-            <button class="buttons" onclick="calculateResult()">=</button>
+            <div class="calculator-digit-line-five">
+                <button class="buttons" onclick="append('0')">0</button>
+                <button class="buttons" onclick="append('00')">00</button>
+                <button class="buttons" onclick="append('.')">.</button>
+                <button class="buttons" onclick="calculateResult()">=</button>
+            </div>
         </div>
-      </div>
         <script src="./src/main.js"></script>
     </body>
 </html>
